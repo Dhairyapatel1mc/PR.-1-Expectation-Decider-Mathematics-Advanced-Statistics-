@@ -629,7 +629,7 @@ pip install numpy pandas scipy matplotlib
 # ▶️ How to Run
 
 ```bash
-python expectation_decider.py
+jupyter expectation_decider.ipynb
 ```
 
 ---
