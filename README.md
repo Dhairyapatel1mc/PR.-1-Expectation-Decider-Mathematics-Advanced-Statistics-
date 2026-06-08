@@ -155,9 +155,9 @@ Expectation-Decider/
 ├── README.md
 │
 ├── charts/
-│   ├── pass_fail_chart.png
-│   ├── attendance_histogram.png
-│   └── study_vs_score.png
+│   ├── attendance_distribution.png
+│   ├── pass_vs_fail.png
+│   └── study_hours_vs_test_score.png
 │
 └── requirements.txt
 ```
