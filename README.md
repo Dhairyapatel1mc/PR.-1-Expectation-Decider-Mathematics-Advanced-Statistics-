@@ -1,12 +1,6 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Expectation%20Decider&fontAlign=50&fontAlignY=40&color=gradient" />
-</p>
-
-### Probability & Statistics Based Student Performance Prediction Model
-<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Expectation%20Decider&fontAlign=50&fontAlignY=40&color=timeGradient&fontColor=ffffff&fontSize=45&desc=Probability%20%26%20Statistics%20|%20Student%20Performance%20Analysis&descAlign=50&descAlignY=62&descSize=16" />
 </p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
@@ -15,17 +9,13 @@
   <img src="https://img.shields.io/badge/SciPy-Statistics-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white"/>
   <img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge"/>
 </p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/Status-✅ Completed-2ecc71?style=flat-square"/>
   <img src="https://img.shields.io/badge/Course-Mathematics%20%26%20Advanced%20Statistics-e74c3c?style=flat-square"/>
   <img src="https://img.shields.io/badge/Institute-Red%20%26%20White%20Skill%20Education-3498db?style=flat-square"/>
 </p>
 
----
-
 <h2 align="center">🌐 Connect With Me</h2>
-
 <p align="center">
   <a href="https://www.instagram.com/ghost_6927/?hl=en" target="_blank">
     <img src="https://skillicons.dev/icons?i=instagram" height="50" alt="Instagram"/>
@@ -39,8 +29,6 @@
     <img src="https://skillicons.dev/icons?i=github" height="50" alt="GitHub"/>
   </a>
 </p>
-
----
 
 # 📌 Table of Contents
 
