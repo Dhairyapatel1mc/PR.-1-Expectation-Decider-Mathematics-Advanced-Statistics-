@@ -32,9 +32,7 @@
 
 # 📌 Table of Contents
 
-<table>
-<tr>
-<td valign="top" width="60%">
+
 
 - 🎯 [Project Overview](#-project-overview)
 - 🎯 [Project Objectives](#-project-objectives)
@@ -53,14 +51,6 @@
 - ⭐ [Support](#-support)
 - 🏆 [Final Conclusion](#-final-conclusion)
 
-</td>
-<td valign="top" align="center">
-
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="350" alt="coding gif"/>
-
-</td>
-</tr>
-</table>
 
 ---
 
