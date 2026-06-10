@@ -2,69 +2,57 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Expectation%20Decider&fontAlign=50&fontAlignY=40&color=gradient" />
 </p>
 
+### Probability & Statistics Based Student Performance Prediction Model
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-Scientific_Computing-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SciPy-Statistics-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge"/>
-</p>
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
+![Statistics](https://img.shields.io/badge/Statistics-Probability-red?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-orange?style=for-the-badge&logo=numpy)
+![SciPy](https://img.shields.io/badge/SciPy-Statistical%20Analysis-blue?style=for-the-badge&logo=scipy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-yellow?style=for-the-badge)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Completed-2ecc71?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Course-Mathematics%20%26%20Advanced%20Statistics-e74c3c?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Institute-Red%20%26%20White%20Skill%20Education-3498db?style=flat-square"/>
-</p>
-
----
-
-<h2 align="center">Connect With Me</h2>
+<h2 align="center">🌐 Connect With Me</h2>
 
 <p align="center">
   <a href="https://www.instagram.com/ghost_6927/?hl=en" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram" height="50" alt="Instagram"/>
+    <img src="https://skillicons.dev/icons?i=instagram" height="60" alt="Instagram"/>
   </a>
-  &nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/ghost-patel-0267663b7/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="50" alt="LinkedIn"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Dhairyapatel1mc" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" height="50" alt="GitHub"/>
+    <img src="https://skillicons.dev/icons?i=linkedin" height="60" alt="LinkedIn"/>
   </a>
 </p>
 
 ---
 
-# Table of Contents
+# 📌 Table of Contents
 
 <table>
 <tr>
-<td valign="top" width="60%">
+<td valign="top" width="65%">
 
-- [Project Overview](#project-overview)
-- [Project Objectives](#project-objectives)
-- [Features](#features)
-- [Dataset Attributes](#dataset-attributes)
-- [Project Structure](#project-structure)
-- [Statistical Concepts Used](#statistical-concepts-used)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [How to Run](#how-to-run)
-- [Visualizations](#visualizations)
-- [Sample Results](#sample-results)
-- [Learning Outcomes](#learning-outcomes)
-- [Future Improvements](#future-improvements)
-- [Author](#author)
-- [Support](#support)
-- [Final Conclusion](#final-conclusion)
+- 🎯 [Project Overview](#project-overview)
+- 🎯 [Project Objectives](#project-objectives)
+- 🚀 [Features](#features)
+- 📊 [Dataset Attributes](#dataset-attributes)
+- 📂 [Project Structure](#project-structure)
+- 🧠 [Statistical Concepts Used](#statistical-concepts-used)
+- 🔬 [Technologies Used](#technologies-used)
+- ⚙️ [Installation](#installation)
+- ▶️ [How to Run](#how-to-run)
+- 📈 [Visualizations](#visualizations)
+- 📋 [Sample Results](#sample-results)
+- 📚 [Learning Outcomes](#learning-outcomes)
+- 💡 [Future Improvements](#future-improvements)
+- 👨‍💻 [Author](#author)
+- ⭐ [Support](#support)
+- 🏆 [Final Conclusion](#final-conclusion)
 
 </td>
-<td valign="top" align="center">
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="350" alt="coding gif"/>
+<td valign="top" align="right">
+
+<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="400"/>
 
 </td>
 </tr>
@@ -73,352 +61,895 @@
 ---
 
 <a name="project-overview"></a>
-## Project Overview
+# 🎯 Project Overview
 
-**Expectation Decider** is a data analytics project built for an educational research institute. The goal is to predict whether a student will pass a competitive mathematics exam by analyzing historical patterns using **Probability and Statistics**.
+The **Expectation Decider** is a Probability and Statistics project designed to analyze student academic performance and estimate the likelihood of passing a competitive mathematics examination.
 
-A synthetic dataset of **200 students** is generated and analyzed across five key dimensions — study habits, attendance, peer interaction, prior performance, and final exam outcome.
+The model uses student-related factors such as:
 
-> The model does not use machine learning. Every prediction is derived purely from probability theory and statistical formulas, making it a strong foundation for understanding how data drives decisions.
+- Study Hours
+- Attendance Percentage
+- Group Discussion Participation
+- Previous Test Scores
+
+to perform statistical analysis and derive meaningful probability-based insights.
+
+This project demonstrates practical applications of Probability Theory, Random Variables, Probability Distributions, Conditional Probability, Contingency Tables, and Bayes Theorem using Python.
 
 ---
 
 <a name="project-objectives"></a>
-## Project Objectives
+# 🎯 Project Objectives
 
-- Analyze student performance data using probability techniques
-- Build a full probability analysis pipeline from scratch in Python
-- Calculate empirical, theoretical, conditional, joint, and marginal probabilities
-- Apply Bayes Theorem to update predictions based on evidence
-- Visualize distributions, relationships, and statistical summaries
-- Identify the key factors that influence a student's chance of passing
+The objectives of this project are:
+
+- Generate and analyze student performance data.
+- Apply probability concepts to real-world scenarios.
+- Understand random variables and probability distributions.
+- Calculate empirical and theoretical probabilities.
+- Analyze relationships between variables.
+- Use Bayes Theorem for prediction.
+- Visualize statistical patterns using charts.
+- Develop data-driven decision-making skills.
 
 ---
 
 <a name="features"></a>
-## Features
+# 🚀 Features
 
-| Feature | Description |
-|---|---|
-| Dataset Generation | 200 synthetic student records with realistic distributions |
-| Probability Analysis | Empirical and theoretical probability from data |
-| Binomial Distribution | Models pass/fail outcomes for 3 random students |
-| Venn Diagram | Visual overlap of study hours and attendance conditions |
-| Contingency Table | Cross-tabulation with heatmap for group discussion vs exam result |
-| Independence Test | Checks if group discussion and exam result are related |
-| Bayes Theorem | Updates pass probability given high attendance evidence |
-| Summary Dashboard | 3-panel visualization showing key patterns |
+✅ Synthetic Dataset Generation
+
+✅ Probability Analysis
+
+✅ Empirical Probability
+
+✅ Theoretical Probability
+
+✅ Random Variable Modeling
+
+✅ Binomial Distribution
+
+✅ Mean & Variance Calculation
+
+✅ Venn Diagram Analysis
+
+✅ Contingency Tables
+
+✅ Joint Probability
+
+✅ Marginal Probability
+
+✅ Conditional Probability
+
+✅ Independence Testing
+
+✅ Bayes Theorem Application
+
+✅ Data Visualization
+
+✅ CSV Export
 
 ---
 
 <a name="dataset-attributes"></a>
-## Dataset Attributes
+# 📊 Dataset Attributes
 
-| Field | Type | Description |
-|---|---|---|
-| `study_hours` | Integer | Hours studied per week (2–20) |
-| `attendance` | Float | Lecture attendance percentage (40–100%) |
-| `group_discussion` | String | Participates in group discussions — Yes / No |
-| `previous_test_score` | Integer | Score out of 100 from last internal test |
-| `final_exam_pass` | String | Exam outcome — Pass / Fail |
-
-The dataset is generated using `numpy.random` with a weighted pass probability formula based on all four input features.
+| Feature | Description |
+|----------|-------------|
+| study_hours | Number of study hours per week |
+| attendance | Attendance percentage |
+| group_discussion | Participation in group discussions |
+| previous_test_score | Marks obtained in previous test |
+| final_exam_pass | Pass or Fail result |
 
 ---
 
 <a name="project-structure"></a>
-## Project Structure
+# 📂 Project Structure
 
-```
+```text
 Expectation-Decider/
 │
-├── Expectation_Decider.ipynb      # Main notebook — all 7 questions
-├── README.md                      # Project documentation
+├── expectation_decider.py
+├── expectation_decider_dataset.csv
+├── README.md
 │
-└── charts/
-    ├── q3_distribution.png        # Binomial probability distribution
-    ├── q4_venn.png                # Venn diagram
-    ├── q5_contingency.png         # Contingency table heatmap
-    ├── q7_bayes.png               # Bayes theorem comparison
-    └── final_summary.png          # 3-panel summary dashboard
+├── charts/
+│   ├── pass_fail_chart.png
+│   ├── attendance_histogram.png
+│   └── study_vs_score.png
+│
+└── requirements.txt
 ```
 
 ---
 
 <a name="statistical-concepts-used"></a>
-## Statistical Concepts Used
+# 🧠 Statistical Concepts Used
+
+This project demonstrates core Probability and Statistics concepts through practical Python implementation.
 
 ---
 
-### 1 — Probability Basics
+## 1️⃣ Probability
 
-Probability quantifies uncertainty. It ranges from 0 (impossible) to 1 (certain).
+Probability measures the likelihood that an event will occur.
 
-$$P(E) = \frac{\text{Favorable Outcomes}}{\text{Total Outcomes}}$$
+### Formula
 
-Three event examples from the dataset:
+```math
+P(E)=\frac{Favorable\ Outcomes}{Total\ Outcomes}
+```
+
+### Example
+
+Suppose:
+
+- 120 students pass
+- Total students = 200
+
+```math
+P(Pass)=\frac{120}{200}
+```
+
+```math
+P(Pass)=0.60
+```
+
+Meaning:
+
+There is a **60% chance** that a randomly selected student passes.
+
+### Example from Project
+
+Probability that a student passes the final exam.
+
+### Python Code
 
 ```python
-P_pass     = (df["final_exam_pass"] == "Pass").sum() / len(df)
-P_study10  = (df["study_hours"] > 10).sum() / len(df)
-P_attend80 = (df["attendance"] > 80).sum() / len(df)
+P_pass = (
+    df["final_exam_pass"] == "Pass"
+).mean()
+
+print(P_pass)
+```
+
+### How the Code Works
+
+```python
+df["final_exam_pass"] == "Pass"
+```
+
+Creates a Boolean series:
+
+```text
+True
+False
+True
+True
+...
+```
+
+Internally Python treats:
+
+```text
+True = 1
+False = 0
+```
+
+Therefore:
+
+```python
+.mean()
+```
+
+Calculates:
+
+```math
+\frac{Number\ of\ Passes}
+{Total\ Students}
+```
+
+which gives the probability of passing.
+
+### Sample Output
+
+```text
+0.60
+```
+
+Meaning:
+
+Approximately **60% of students passed the exam**.
+
+---
+
+## 2️⃣ Empirical Probability
+
+Empirical probability is calculated using observed data.
+
+### Formula
+
+```math
+P(E)=\frac{Number\ of\ Times\ Event\ Occurred}{Total\ Observations}
+```
+
+### Example
+
+Suppose:
+
+- 120 students pass
+- Total students = 200
+
+```math
+P(Pass)=\frac{120}{200}
+```
+
+```math
+P(Pass)=0.60
+```
+
+Meaning:
+
+The observed probability of passing is **60%**.
+
+### Example from Project
+
+Calculate pass probability using generated student data.
+
+### Python Code
+
+```python
+empirical_probability = P_pass
+
+print(empirical_probability)
+```
+
+### How the Code Works
+
+`P_pass` already contains the proportion of students who passed.
+
+### Sample Output
+
+```text
+0.60
 ```
 
 ---
 
-### 2 — Empirical vs Theoretical Probability
+## 3️⃣ Theoretical Probability
 
-**Empirical** — observed from actual data.
-**Theoretical** — calculated by assumption (equal outcomes).
+Theoretical probability is calculated mathematically before observing data.
 
-```python
-empirical_pass    = (df["final_exam_pass"] == "Pass").sum() / len(df)
-theoretical_pass  = 1 / 2
+### Formula
+
+```math
+P(E)=\frac{Favorable\ Outcomes}{Total\ Possible\ Outcomes}
 ```
 
-Empirical deviates from theoretical because real-world conditions (study, attendance, discussion) are not equally likely.
+### Example
+
+Weekend days:
+
+- Saturday
+- Sunday
+
+Total days:
+
+- 7
+
+```math
+P(Weekend)=\frac{2}{7}
+```
+
+```math
+P(Weekend)=0.2857
+```
+
+Meaning:
+
+There is a **28.57% chance** of selecting a weekend day.
+
+### Example from Project
+
+Theoretical probability example.
+
+### Python Code
+
+```python
+theoretical_probability = 2 / 7
+
+print(theoretical_probability)
+```
+
+### How the Code Works
+
+Python divides 2 by 7.
+
+### Sample Output
+
+```text
+0.2857
+```
 
 ---
 
-### 3 — Random Variable & Binomial Distribution
+## 4️⃣ Random Variable
 
-Let X = number of students passing out of 3 randomly selected.
-X follows a Binomial distribution: **X ~ B(n=3, p)**
+A random variable assigns numerical values to outcomes.
 
-$$P(X=x) = \binom{n}{x} \cdot p^x \cdot (1-p)^{n-x}$$
+### Formula
 
-```python
-from scipy.stats import binom
-
-probs = [binom.pmf(x, 3, empirical_pass) for x in range(4)]
+```math
+X = Number\ of\ students\ passing\ among\ 3\ selected\ students
 ```
 
-**Mean and Variance:**
+### Example
 
-$$\mu = np \qquad \sigma^2 = np(1-p)$$
+Possible values:
+
+```text
+0,1,2,3
+```
+
+### Example from Project
+
+Students passing among 3 selected students.
+
+### Python Code
 
 ```python
-mean_X     = 3 * empirical_pass
-variance_X = 3 * empirical_pass * (1 - empirical_pass)
+p = P_pass
+n_students = 3
+
+distribution = pd.DataFrame({
+    "X": range(4),
+    "P(X=x)": [
+        binom.pmf(x, n_students, p)
+        for x in range(4)
+    ]
+})
+
+print(distribution)
+```
+
+### How the Code Works
+
+Calculates probabilities for:
+
+```text
+P(X=0)
+P(X=1)
+P(X=2)
+P(X=3)
+```
+
+### Sample Output
+
+```text
+X   P(X=x)
+0   0.064
+1   0.288
+2   0.432
+3   0.216
 ```
 
 ---
 
-### 4 — Venn Diagram
+## 5️⃣ Probability Distribution
 
-Visual intersection of two events:
-- **A** = Student studies more than 10 hours/week
-- **B** = Student attends more than 80% of classes
+Shows all possible values of a random variable and their probabilities.
+
+### Formula
+
+```math
+P(X=x)=\binom{n}{x}p^x(1-p)^{n-x}
+```
+
+### Example
+
+Find probability that exactly 2 out of 3 students pass.
+
+### Python Code
+
+```python
+binom.pmf(2, 3, 0.60)
+```
+
+### How the Code Works
+
+Calculates:
+
+```math
+P(X=2)
+```
+
+using Binomial Distribution.
+
+### Sample Output
+
+```text
+0.432
+```
+
+---
+
+## 6️⃣ Mean of Random Variable
+
+Average expected outcome.
+
+### Formula
+
+```math
+\mu=np
+```
+
+### Example
+
+```math
+(3)(0.60)=1.8
+```
+
+### Python Code
+
+```python
+mean_x = n_students * p
+
+print(mean_x)
+```
+
+### How the Code Works
+
+Multiplies trials by success probability.
+
+### Sample Output
+
+```text
+1.8
+```
+
+---
+
+## 7️⃣ Variance of Random Variable
+
+Measures spread of outcomes.
+
+### Formula
+
+```math
+\sigma^2=np(1-p)
+```
+
+### Example
+
+```math
+(3)(0.60)(0.40)
+```
+
+```math
+0.72
+```
+
+### Python Code
+
+```python
+variance_x = n_students * p * (1 - p)
+
+print(variance_x)
+```
+
+### Sample Output
+
+```text
+0.72
+```
+
+---
+
+## 8️⃣ Venn Diagram Analysis
+
+Used to analyze overlapping groups.
+
+### Example
+
+Set A:
+
+```text
+Study Hours > 10
+```
+
+Set B:
+
+```text
+Attendance > 80%
+```
+
+### Python Code
 
 ```python
 A = df["study_hours"] > 10
-B = df["attendance"]  > 80
+B = df["attendance"] > 80
 
-only_A  = (A & ~B).sum()
-only_B  = (~A & B).sum()
-both    = (A & B).sum()
-neither = (~A & ~B).sum()
+only_A = np.sum(A & ~B)
+only_B = np.sum(~A & B)
+both = np.sum(A & B)
+neither = np.sum(~A & ~B)
+```
+
+### How the Code Works
+
+Calculates overlap between study habits and attendance.
+
+---
+
+## 9️⃣ Contingency Table
+
+Compares two categorical variables.
+
+### Example from Project
+
+Group Discussion vs Final Result.
+
+### Python Code
+
+```python
+contingency_table = pd.crosstab(
+    df["group_discussion"],
+    df["final_exam_pass"]
+)
+
+print(contingency_table)
+```
+
+### How the Code Works
+
+Counts students in each category combination.
+
+---
+
+## 🔟 Joint Probability
+
+Probability of two events occurring together.
+
+### Formula
+
+```math
+P(A \cap B)
+```
+
+### Example
+
+Student participates in group discussion and passes.
+
+### Python Code
+
+```python
+joint_probability = len(
+    df[
+        (df["group_discussion"] == "Yes")
+        &
+        (df["final_exam_pass"] == "Pass")
+    ]
+) / len(df)
+```
+
+### Sample Output
+
+```text
+0.45
 ```
 
 ---
 
-### 5 — Contingency Table & Probabilities
+## 1️⃣1️⃣ Marginal Probability
 
-Cross-tabulates group discussion (Yes/No) against exam result (Pass/Fail).
+Probability of a single event.
 
-```python
-ct = pd.crosstab(df["group_discussion"], df["final_exam_pass"])
+### Formula
+
+```math
+P(A)
 ```
 
-From the table:
+### Example
+
+Probability of passing.
+
+### Python Code
 
 ```python
-# Joint probability — participates AND passes
-P_joint = ct.loc["Yes", "Pass"] / len(df)
-
-# Marginal probability — passes overall
-P_pass = ct["Pass"].sum() / len(df)
-
-# Conditional probability — passes given participates
-P_cond = ct.loc["Yes", "Pass"] / ct.loc["Yes", :].sum()
+marginal_probability = len(
+    df[df["final_exam_pass"] == "Pass"]
+) / len(df)
 ```
 
----
+### Sample Output
 
-### 6 — Independence Test
-
-Two events are independent if:
-
-$$P(A \cap B) = P(A) \cdot P(B)$$
-
-```python
-expected = (df["group_discussion"] == "Yes").mean() * (df["final_exam_pass"] == "Pass").mean()
-actual   = P_joint
-
-if abs(actual - expected) > 0.01:
-    print("Dependent — group discussion influences exam result")
-else:
-    print("Independent")
+```text
+0.60
 ```
 
 ---
 
-### 7 — Bayes Theorem
+## 1️⃣2️⃣ Conditional Probability
 
-Updates the probability of passing given high attendance evidence.
+Probability of an event given another event.
 
-$$P(\text{Pass} \mid \text{High Attend}) = \frac{P(\text{High Attend} \mid \text{Pass}) \cdot P(\text{Pass})}{P(\text{High Attend})}$$
+### Formula
 
-Given:
-- P(High Attendance | Pass) = 0.70
-- P(High Attendance | Fail) = 0.40
-- P(High Attendance) = 0.60
-
-```python
-P_HA_given_Pass = 0.70
-P_HA            = 0.60
-
-P_Pass_given_HA = (P_HA_given_Pass * empirical_pass) / P_HA
+```math
+P(A|B)=\frac{P(A\cap B)}{P(B)}
 ```
 
-**Result — a student with high attendance has ~67% probability of passing.**
+### Example
+
+Probability of passing given group discussion participation.
+
+### Python Code
+
+```python
+conditional_probability = (
+    len(
+        df[
+            (df["group_discussion"] == "Yes")
+            &
+            (df["final_exam_pass"] == "Pass")
+        ]
+    )
+    /
+    len(df[df["group_discussion"] == "Yes"])
+)
+```
+
+### Sample Output
+
+```text
+0.75
+```
+
+---
+
+## 1️⃣3️⃣ Independent vs Dependent Events
+
+### Formula
+
+```math
+P(A\cap B)=P(A)P(B)
+```
+
+### Example
+
+Check whether group discussion affects passing.
+
+### Python Code
+
+```python
+left_side = joint_probability
+
+right_side = (
+    (df["group_discussion"] == "Yes").mean()
+    *
+    (df["final_exam_pass"] == "Pass").mean()
+)
+```
+
+### How the Code Works
+
+Compares actual joint probability against expected probability.
+
+---
+
+## 1️⃣4️⃣ Bayes Theorem
+
+Used for prediction.
+
+### Formula
+
+```math
+P(Pass|H)=\frac{P(H|Pass) \cdot P(Pass)}{P(H)}
+```
+
+### Example
+
+Predict probability of passing with high attendance.
+
+### Python Code
+
+```python
+P_H_given_Pass = 0.70
+P_H_given_Fail = 0.40
+P_H = 0.60
+
+P_Pass_given_H = (
+    P_H_given_Pass * P_Pass
+) / P_H
+```
+
+### Sample Output
+
+```text
+0.7778
+```
+
+Meaning:
+
+Students with high attendance have approximately **77.78% probability of passing**.
+
+---
+
+## 1️⃣5️⃣ Data Visualization
+
+Visual representations help identify trends and relationships.
+
+### Bar Chart
+
+```python
+df["final_exam_pass"].value_counts().plot(
+    kind="bar"
+)
+plt.show()
+```
+
+### Histogram
+
+```python
+plt.hist(
+    df["attendance"],
+    bins=10
+)
+plt.show()
+```
+
+### Scatter Plot
+
+```python
+plt.scatter(
+    df["study_hours"],
+    df["previous_test_score"]
+)
+plt.show()
+```
+
+### How the Code Works
+
+- Bar Chart → Pass vs Fail comparison
+- Histogram → Attendance distribution
+- Scatter Plot → Relationship between study hours and scores
 
 ---
 
 <a name="technologies-used"></a>
-## Technologies Used
+# 🔬 Technologies Used
 
-| Tool | Purpose |
-|---|---|
-| Python 3.10+ | Core programming language |
-| NumPy | Dataset generation and numerical operations |
-| Pandas | Data manipulation and contingency tables |
-| SciPy | Binomial probability mass function |
-| Matplotlib | All charts and visualizations |
-| Seaborn | Heatmaps and styled bar plots |
-| matplotlib-venn | Venn diagram rendering |
-| Jupyter Notebook | Interactive analysis environment |
+- Python
+- NumPy
+- Pandas
+- SciPy
+- Matplotlib
 
 ---
 
 <a name="installation"></a>
-## Installation
+# ⚙️ Installation
 
 ```bash
-git clone https://github.com/Dhairyapatel1mc/Expectation-Decider.git
+git clone https://github.com/yourusername/Expectation-Decider.git
+```
+
+```bash
 cd Expectation-Decider
-pip install numpy pandas scipy matplotlib seaborn matplotlib-venn
+```
+
+```bash
+pip install numpy pandas scipy matplotlib
 ```
 
 ---
 
 <a name="how-to-run"></a>
-## How to Run
+# ▶️ How to Run
 
 ```bash
-jupyter notebook Expectation_Decider.ipynb
+python expectation_decider.py
 ```
-
-Then select **Cell > Run All** to execute every question in order.
 
 ---
 
 <a name="visualizations"></a>
-## Visualizations
+# 📈 Visualizations
 
-| Chart | Type | What It Shows |
-|---|---|---|
-| Probability Distribution | Bar Chart | P(X=0,1,2,3) for Binomial(n=3, p) |
-| Venn Diagram | Venn | Overlap of study hours > 10 and attendance > 80% |
-| Contingency Heatmap | Heatmap | Group discussion vs exam result counts |
-| Bayes Comparison | Bar Chart | Prior vs posterior pass probability |
-| Final Summary | 3-panel | Pass/Fail split, group discussion rate, study hour brackets |
+The project generates:
+
+### Pass vs Fail Distribution
+
+```text
+Bar Chart
+```
+
+### Attendance Distribution
+
+```text
+Histogram
+```
+
+### Study Hours vs Previous Test Score
+
+```text
+Scatter Plot
+```
 
 ---
 
 <a name="sample-results"></a>
-## Sample Results
+# 📋 Sample Results
 
 | Metric | Value |
-|---|---|
-| Overall Pass Rate | ~57.5% |
-| P(Pass given Group Discussion = Yes) | ~62% |
-| P(Pass given High Attendance) via Bayes | ~67% |
-| Mean E(X) — students passing out of 3 | ~1.72 |
-| Variance Var(X) | ~0.73 |
-| Events: Group Discussion & Pass | Dependent |
+|----------|---------|
+| Pass Probability | 0.60 |
+| Attendance >80% | 0.45 |
+| Group Discussion Participation | 0.60 |
+| Conditional Probability | 0.75 |
+| Bayes Prediction | 0.7778 |
 
 ---
 
 <a name="learning-outcomes"></a>
-## Learning Outcomes
+# 📚 Learning Outcomes
 
-Completing this project builds understanding of:
+After completing this project, you will understand:
 
-- Translating real-world scenarios into probability problems
-- Working with random variables and probability distributions
-- Building and reading contingency tables
-- Applying Bayes Theorem to update beliefs with evidence
-- Testing for statistical independence between two events
-- Communicating findings through charts and summaries
+- Probability Theory
+- Statistical Inference
+- Random Variables
+- Probability Distributions
+- Conditional Probability
+- Bayes Theorem
+- Data Visualization
+- Statistical Decision Making
 
 ---
 
 <a name="future-improvements"></a>
-## Future Improvements
+# 💡 Future Improvements
 
-- Add Logistic Regression to compare with probability-based predictions
-- Build an interactive Streamlit dashboard
-- Integrate real anonymized student data
-- Extend to multi-class prediction (grade bands instead of pass/fail)
-- Add confidence intervals around probability estimates
+- Machine Learning Prediction Models
+- Logistic Regression
+- Student Risk Analysis
+- Interactive Dashboard
+- Web Application Deployment
+- Real Educational Data Integration
 
 ---
 
 <a name="author"></a>
-## Author
+# 👨‍💻 Author
 
-**Ghost — Patel Dhairya**
+**Your Name**
 
-B.Tech Artificial Intelligence | Gandhinagar University | Roll No. 250101030119
+Data Analytics & Statistics Enthusiast
 
-Passionate about data analytics, probability, and building intelligent systems.
-
-GitHub — [Dhairyapatel1mc](https://github.com/Dhairyapatel1mc)
-
-*Submitted via RWSkill — Mathematics & Advanced Statistics coursework*
+GitHub: https://github.com/yourusername
 
 ---
 
 <a name="support"></a>
-## Support
+# ⭐ Support
 
-If this project helped you:
+If you found this project useful:
 
-- Star the repository
-- Fork it and build on top
-- Share it with your batchmates
+⭐ Star the Repository
+
+🍴 Fork the Repository
+
+📢 Share with Others
 
 ---
 
 <a name="final-conclusion"></a>
-## Final Conclusion
+# 🏆 Final Conclusion
 
-**Expectation Decider** proves that you do not need machine learning to make meaningful predictions — probability theory alone is powerful.
+The **Expectation Decider** project demonstrates how Probability and Statistics can be used to evaluate student performance and make informed academic predictions.
 
-By combining empirical observation, binomial modeling, conditional reasoning, and Bayes Theorem, the project answers a real question: *what actually determines whether a student passes?*
+Through the use of Probability Theory, Binomial Distribution, Conditional Probability, Contingency Tables, and Bayes Theorem, the project provides meaningful insights into the factors that influence exam success and supports data-driven decision-making.
 
-The analysis points to four clear answers:
-
-1. **Attendance above 80%** is the strongest single predictor
-2. **Group discussion participation** shows a significant dependent relationship with passing
-3. **Studying more than 10 hours per week** consistently raises pass rates across all brackets
-4. **A strong previous test score** provides a reliable performance baseline
-
-Statistics is not just about formulas — it is about turning data into decisions.
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=timeGradient&section=footer"/>
-</p>
+The **Expectation Decider** project demonstrates how Probability and Statistics can be used to make data-driven academic predictions. By combining probability theory, conditional probability, contingency tables, and Bayes theorem, the model provides meaningful insights into student success factors and supports intelligent decision-making.
