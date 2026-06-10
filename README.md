@@ -115,15 +115,16 @@ A synthetic dataset of **200 students** is generated and analyzed across five ke
 ```
 📁 Expectation-Decider/
 │
-├── 📓 Expectation_Decider.ipynb      # Main notebook — all 7 questions
-├── 📄 README.md                      # Project documentation
+├── 📓 Expectation_Decider
+├──    expectation_decider_dataset      
+├── 📄 README.md                      
 │
 └── 📊 charts/
-    ├── q3_distribution.png           # Binomial probability distribution
-    ├── q4_venn.png                   # Venn diagram
-    ├── q5_contingency.png            # Contingency table heatmap
-    ├── q7_bayes.png                  # Bayes theorem comparison
-    └── final_summary.png             # 3-panel summary dashboard
+    ├── bayes_theorem         
+    ├── contingency_heatmap                  
+    ├── probability_distribution          
+    ├── venn_diagram               
+    └── final_summary           
 ```
 
 ---
@@ -631,7 +632,7 @@ Completing this project builds understanding of:
 
 ## 👨‍💻 Author
 
-**Ghost — Patel Dhairya**
+**Patel Dhairya**
 
 💻 Passionate about data analytics, probability, and building intelligent systems.
 
