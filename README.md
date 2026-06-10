@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Expectation%20Decider&fontAlign=50&fontAlignY=40&color=timeGradient&fontColor=ffffff&fontSize=45&desc=Probability%20%26%20Statistics%20|%20Student%20Performance%20Analysis&descAlign=50&descAlignY=62&descSize=16" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Expectation%20Decider&fontAlign=50&fontAlignY=40&color=gradient" />
 </p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
