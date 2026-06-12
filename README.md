@@ -120,11 +120,12 @@ A synthetic dataset of **200 students** is generated and analyzed across five ke
 ├── 📄 README.md                      
 │
 └── 📊 charts/
-    ├── bayes_theorem         
-    ├── contingency_heatmap                  
-    ├── probability_distribution          
-    ├── venn_diagram               
-    └── final_summary           
+│   ├── bayes_theorem         
+│    ├── contingency_heatmap                  
+│    ├── probability_distribution          
+│    ├── venn_diagram               
+│    └── final_summary           
+└──🎥video
 ```
 
 ---
